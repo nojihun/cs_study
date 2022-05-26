@@ -179,3 +179,10 @@ def canCompleteCircuit( gas, cost):
         return -1
 
 print(canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2]))
+
+from collections import Counter
+
+nums =[ 3,2,3]
+
+if Counter(nums).most_common(1)[0][1]> len(nums)//2:
+            print( Counter(nums).most_common(1)[0][0])
