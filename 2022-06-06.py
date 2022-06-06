@@ -65,4 +65,5 @@ def totalNQueens(n: int) -> int:
         return backtrack(0)
 
 
+    
 print(totalNQueens(6))
