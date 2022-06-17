@@ -66,3 +66,5 @@ def totalNQueens(n: int) -> int:
 
 
 print(totalNQueens(6))
+
+
