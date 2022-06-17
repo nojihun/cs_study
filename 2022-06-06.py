@@ -65,6 +65,11 @@ def totalNQueens(n: int) -> int:
         return backtrack(0)
 
 
+<<<<<<< HEAD
 print(totalNQueens(6))
 
 
+=======
+    
+print(totalNQueens(6))
+>>>>>>> ab1f4b08255e4ce08a01760a65a0beb392f7c34d
